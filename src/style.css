@@ -22,11 +22,14 @@ li {
   font-weight: 100;
   line-height: 19px;
 }
-.weatherappwrapper {
+li:first-letter {
+  text-transform: capitalize;
+}
+.weather-app-wrapper {
   max-width: 600 px;
   margin: 30px auto;
 }
-.weatherapp {
+.weather-app {
   padding: 20px;
   border: 1px solid #dadda1;
   border-radius: 5px;
@@ -34,20 +37,20 @@ li {
 .overview {
   margin-bottom: 20px;
 }
-.weather-temprature img {
+.weather-temperature img {
   margin-right: 5px;
   height: 64px;
   width: 64px;
 }
 
-.weather-temprature strong {
+.weather-temperature strong {
   color: rgb(33, 33, 33);
   font-size: 64px;
   line-height: 1;
   font-weight: 400;
 }
 
-.weather-temprature .units {
+.weather-temperature .units {
   position: relative;
   font-size: 16px;
   top: -34px;
