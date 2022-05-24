@@ -17,7 +17,7 @@ li {
   list-style: none;
   margin: 0px;
   padding: 0px;
-  color: rgb(135, 135, 135);
+  color: rgb(112, 112, 112);
   font-size: 16px;
   font-weight: 100;
   line-height: 19px;
@@ -33,6 +33,7 @@ li:first-letter {
   padding: 20px;
   border: 1px solid #dadda1;
   border-radius: 5px;
+  background-color: #dbdfaa;
 }
 .overview {
   margin-bottom: 20px;
@@ -73,7 +74,7 @@ li:first-letter {
   opacity: 0.5;
 }
 .weather-forecast-temperature {
-  font-size: 13px;
+  font-size: 14px;
 }
 .weather-forecast-temperature-min {
   opacity: 0.5;
